@@ -1,9 +1,11 @@
 import './App.css';
+import Form from './Components/Form/Form';
+import 'react-phone-number-input/style.css'
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+     <Form/>
     </div>
   );
 }
